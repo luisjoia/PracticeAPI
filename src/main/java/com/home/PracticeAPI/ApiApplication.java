@@ -11,7 +11,7 @@ public class ApiApplication {
 	}
 
 	private static void startLocalStack() {
-		LocalstackServices.start();
+		 new LocalstackServices().startUp();
 
 	}
 }
